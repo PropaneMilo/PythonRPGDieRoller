@@ -81,18 +81,25 @@ while 1 <= 2:
         print("You have entered an invalid roll, have a random one instead.")
 # This random roller exists because it helped me test my stuff, and is a
 # a fun issue catcher.
-        rolledDice = str(str(random.randint(1, 6)) + "d" + str(random.choice(
-            ['4', '6', '8', '10', '12', '20']))) + random.choice(["+", "-"]) + str(random.randint(0, 5))
+        rolledDice = (str(str(random.randint(1, 6))
+                          + "d"
+                          + str(random.choice(
+                            ['4', '6', '8', '10', '12', '20'])))
+                      + random.choice(["+", "-"])
+                      + str(random.randint(0, 5)))
         roller(rolledDice)
 
 
-################################ TO DO ################################
+"""
+############################## TO DO ################################
 #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #
-# 20s
-#   Make it so that rolling [X]d[Y=20]+[Z] will roll (d20+[Z]), [X] times.
-#
-# Non-negatives
-#   Usually, damage numbers can't go below 1.
-#
-# Functional
-#   This is getting messy. Learn to use functions in better ways.
+
+20s
+Make it so that rolling [X]d[Y=20]+[Z] will roll (d20+[Z]), [X] times.
+
+Non-negatives
+Usually, damage numbers can't go below 1.
+
+Functional
+This is getting messy. Learn to use functions in better ways.
+"""
