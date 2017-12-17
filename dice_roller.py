@@ -61,7 +61,7 @@ print("Enter any combination you like, as long as it's shortform.")
 print("Examples of valid rolls: 6, d6, 1d6, 8+5, 38d12-4, ''")
 
 # BEST LOOP EVER HAAAAHAHAHAHAHA I AM A GENIUS
-while 1 <= 2:
+while True:
 
     # Error handling, because my god those were a pain in my fucking ass.
     try:
