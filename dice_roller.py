@@ -102,4 +102,7 @@ Usually, damage numbers can't go below 1.
 
 Functional
 This is getting messy. Learn to use functions in better ways.
+
+Include this Regex for roll recognition:
+(?:(\d+)?([Dd]+))?(?:(\d+))([-+]?)(\d*)
 """
